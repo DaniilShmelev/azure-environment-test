@@ -5,7 +5,7 @@ jobs:
 - deployment: VMDeploy
   displayName: Deploy to VM
   environment:
-    name: ContosoDeploy
+    name: Prod
     resourceType: VirtualMachine
   strategy:
     runOnce:
